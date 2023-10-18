@@ -5,11 +5,12 @@ import Form from "./Form";
 import SelectTab from "./SelectTab";
 import Response from "./Response";
 import ErrorScreen from "./ErrorScreen";
-import axios from "axios";
+
 import { DataContext } from "./context/DataProvider";
 import { checkParams } from "@/utils/common-utils";
-import SnackBar from "./Snackbar";
+
 import { getData } from "@/service/api";
+import SnackBar from "./SnackBar";
 
 const Home = () => {
   const [error, seterror] = useState(false);
